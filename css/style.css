@@ -1,5 +1,10 @@
 /* RESET */
 
+:root {
+    --purple-color: #B91350;
+    --bg-grey: #808080;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,4 +20,53 @@ html {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    width: 100%;
+}
+
+input, select {
+    border: 2px solid #B91350;
+    width: 250px;
+    height: 50px;
+}
+
+.bg_color_container{
+    background-color: #B91450;
+    height: 100vh;
+}
+
+.purple-color {
+    color: var(--purple-color);
+}
+
+.form_container > form > div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.btn-purple {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid #E98E3E;
+    text-decoration: none;
+    background-color: #CCCCCC;
+    color: var(--purple-color);
+}
+
+.bg_color_ticket{
+    background-color: #FFFFFF;
+}
+
+#first_ticket{
+    border-radius: 20px;
+}
+
+.background-color {
+    background-color: var(--bg-grey);
+}
+
+.border_second_ticket{
+    border: 2px solid #808080;
 }
